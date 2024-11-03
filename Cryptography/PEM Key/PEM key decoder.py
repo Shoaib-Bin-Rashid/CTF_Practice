@@ -37,3 +37,5 @@ private_key_d = key.d
 
 # Print the private exponent as a decimal integer
 print(f"Private key 'd': {private_key_d}")
+print(f"modulus 'n': {key.n}")
+print(f"exponent 'e': {key.e}")
